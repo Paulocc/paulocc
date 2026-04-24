@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome | Desenvolvedor & Professor</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --accent: #3b82f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -3rem auto 2rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 { margin: 0; font-size: 2.5rem; }
+        .subtitle { font-size: 1.2rem; opacity: 0.9; margin-top: 0.5rem; }
+
+        section { margin-bottom: 2rem; }
+        h2 { border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; color: var(--primary); }
+
+        .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+        .tag {
+            background: #e2e8f0;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .project-card {
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            background: #f1f5f9;
+            margin-top: 1rem;
+        }
+
+        footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; }
+
+        a { color: var(--primary); text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Seu Nome</h1>
+    <p class="subtitle">Cientista da Computação & Professor de Tecnologia</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>
+            Acadêmico de Ciência da Computação na <strong>UFFS Chapecó</strong> e professor ACT na rede estadual de Santa Catarina. 
+            Atualmente focado no desenvolvimento de sistemas, modelagem de dados e na formação da próxima geração de técnicos em informática.
+        </p>
+    </section>
+
+    <section>
+        <h2>Áreas de Atuação</h2>
+        <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">Modelagem de Sistemas (UML)</span>
+            <span class="tag">Bancos de Dados</span>
+            <span class="tag">Desenvolvimento Web</span>
+            <span class="tag">Git / GitHub</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Pesquisa e Projetos</h2>
+        <div class="project-card">
+            <h3>TCC: Mapeamento ER para Grafos</h3>
+            <p>Estudo focado na ferramenta <strong>brModelo</strong> e a transição de modelos relacionais para bancos de dados orientados a grafos.</p>
+        </div>
+        <div class="project-card">
+            <h3>Educação Profissional (SED-SC)</h3>
+            <p>Lecionando as disciplinas de Modelagem, Desenvolvimento e Implantação de Sistemas para o Ensino Médio Técnico.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <p>Você pode me encontrar no <a href="https://github.com/seu-usuario" target="_blank">GitHub</a> ou enviar um e-mail para <a href="mailto:seu-email@provedor.com">seu-email@provedor.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 - Desenvolvido com Git e hospedado no GitHub Pages.
+</footer>
+
+</body>
+</html>
